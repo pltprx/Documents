@@ -6,15 +6,16 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Aug&amp;Ohr Medien</title>
+        <title>@title</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
 
-        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="@root_path/public/docs/css/bootstrap.min.css">
         <link rel="profile" href="http://microformats.org/profile/hcard">
-        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="@root_path/public/docs/css/main.css">
         <script src="https://code.jquery.com/jquery.js"></script>
-        <script src="js/gridline.min.js"></script>
+        <script src="@root_path/public/docs/js/gridline.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
 
     </head>
     <body id="film-detail about">
@@ -67,10 +68,7 @@
           <div class="row" data-columns="16" data-gutter-width="20">
              <div class="col-md-10 third">
               <div class="gutter">
-                <p>Es gibt im Moment in diese Mannschaft, oh, einige Spieler vergessen ihnen Profi was sie sind. Ich lese nicht sehr viele Zeitungen, aber ich habe gehört viele Situationen. Erstens: wir haben nicht offensiv gespielt. Es gibt keine deutsche Mannschaft spielt offensiv und die Name offensiv wie Bayern. Letzte Spiel hatten wir in Platz drei Spitzen: Elber, Jancka und dann Zickler. Wir müssen nicht vergessen Zickler. Zickler ist eine Spitzen mehr, Mehmet eh mehr Basler.</p>
-<p>Ist klar diese Wörter, ist möglich verstehen, was ich hab gesagt? Danke. Offensiv, offensiv ist wie machen wir in Platz. Zweitens: ich habe erklärt mit diese zwei Spieler: nach Dortmund brauchen vielleicht Halbzeit Pause. Ich habe auch andere Mannschaften gesehen in Europa nach diese Mittwoch. Ich habe gesehen auch zwei Tage die Training. Ein Trainer ist nicht ein Idiot! Ein Trainer sei sehen was passieren in Platz. In diese Spiel es waren zwei, drei diese Spieler waren schwach wie eine Flasche leer! 
-Haben Sie gesehen Mittwoch, welche Mannschaft hat gespielt Mittwoch? Hat gespielt Mehmet oder gespielt Basler oder hat gespielt Trapattoni? Diese Spieler beklagen mehr als sie spielen! Wissen Sie, warum die Italienmannschaften kaufen nicht diese Spieler? Weil wir haben gesehen viele Male solche Spiel! Haben gesagt sind nicht Spieler für die italienisch Meisters! Strunz! Strunz ist zwei Jahre hier, hat gespielt 10 Spiele, ist immer verletzt! Was erlauben Strunz? Letzte Jahre Meister Geworden mit Hamann, eh, Nerlinger. 
-</p>
+              @about-text
               </div>
             </div>
             <div class="col-md-6">
@@ -84,8 +82,8 @@ Haben Sie gesehen Mittwoch, welche Mannschaft hat gespielt Mittwoch? Hat gespiel
                     </th>
                     <td>
                       <div>
-                        <p>Markus Kaatsch<br />
-                        <em>Founder</em>
+                        <p>@name-1<br />
+                        <em>@profession-1</em>
                         </p>
                       </div>
                     </td>
@@ -99,8 +97,8 @@ Haben Sie gesehen Mittwoch, welche Mannschaft hat gespielt Mittwoch? Hat gespiel
                     </th>
                     <td>
                       <div>
-                        <p>Markus Kaatsch<br />
-                        <em>Founder</em>
+                        <p>@name-2<br />
+                        <em>@profession-2</em>
                         </p>
                       </div>
                     </td>
@@ -114,8 +112,8 @@ Haben Sie gesehen Mittwoch, welche Mannschaft hat gespielt Mittwoch? Hat gespiel
                     </th>
                     <td>
                       <div>
-                        <p>Markus Kaatsch<br />
-                        <em>Founder</em>
+                        <p>@name-3<br />
+                        <em>@profession-3</em>
                         </p>
                       </div>
                     </td>
@@ -138,13 +136,13 @@ Haben Sie gesehen Mittwoch, welche Mannschaft hat gespielt Mittwoch? Hat gespiel
                 <table class="table">
                   <tr>
                     <th scope="row"><div class="vcard">
-                      <p class="org"><strong>aug&amp;ohr medien</strong></p>
-                      <p class="fn">Markus Kaatsch</p>
-                      <p class="org">M. Kaatsch, J. Hardt &amp; Co. GbR</p>
-                      <p class="street-address">Riemannstraße 21<p>
-                      <p><span class="postal-code">D-10961</span> <span class="locality">Berlin</span>, <span class="country-name">Germany</span></p>
-                      <p class="tel">+49 (0) 176 - 62965299</p>
-                      <p><a class="url"href="#">http://augohr.de</a></p>
+                      <p class="org"><strong>@name</strong></p>
+                      <p class="fn">@line-1</p>
+                      <p class="org">@line-2</p>
+                      <p class="street-address">@street-address<p>
+                      <p><span class="postal-code">@postal-code</span> <span class="locality">@locality</span>, <span class="country-name">@country-name</span></p>
+                      <p class="tel">@tel</p>
+                      <p><a class="url"href="#">@website</a></p>
                     </div></th>
                     <td>
                       <div class="maps">
