@@ -10,11 +10,11 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
 
-        <link rel="stylesheet" href="./public/docs/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../public/docs/css/bootstrap.min.css">
         <link rel="profile" href="http://microformats.org/profile/hcard">
-        <link rel="stylesheet" href="./public/docs/css/main.css">
+        <link rel="stylesheet" href="../public/docs/css/main.css">
         <script src="https://code.jquery.com/jquery.js"></script>
-        <script src="./public/docs/js/gridline.min.js"></script>
+        <script src="../public/docs/js/gridline.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
 
     </head>
@@ -41,10 +41,12 @@
 			  <div class="collapse navbar-collapse">
 			    <ul class="nav navbar-nav">
 			    
-			      <li class="active"><a href="./catalogue/">Catalogue</a></li>
+			      <li class="active" 
+			      ><a href="../catalogue/">Catalogue</a></li>
 			
 				
-			      <li class="active"><a href="./about/">About</a></li>
+			      <li 
+			      ><a href="../about/">About</a></li>
 			
 				
 			    </ul>
@@ -230,7 +232,7 @@
         </section>
       </div>
       <footer>
-        <p><a id="small-logo" href="#"><img src="./public/images/ao_logo_footer.png" alt="aug&amp;ohr medien" />
+        <p><a id="small-logo" href="#"><img src="../public/images/ao_logo_footer.png" alt="aug&amp;ohr medien" />
             <span>aug&amp;ohr medien</span></a>
             <span>&copy; 2011-2013</span>
             <span class="pull-right imprint"><a href="#">Impressum</a></span>
@@ -240,4 +242,4 @@
     </body>
 </html>
 
-<!-- Stacey(2.3.0): b47a77c9309fd4d38c77356f56fc9f95 -->
+<!-- Stacey(2.3.0): 7c7f51ea48d39abf330205c7d34ee7f1 -->

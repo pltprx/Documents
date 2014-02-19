@@ -6,15 +6,15 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>@film-title</title>
+        <title>Ballet Stories</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
 
-        <link rel="stylesheet" href="@root_path/public/docs/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../../public/docs/css/bootstrap.min.css">
         <link rel="profile" href="http://microformats.org/profile/hcard">
-        <link rel="stylesheet" href="@root_path/public/docs/css/main.css">
+        <link rel="stylesheet" href="../../public/docs/css/main.css">
         <script src="https://code.jquery.com/jquery.js"></script>
-        <script src="@root_path/public/docs/js/gridline.min.js"></script>
+        <script src="../../public/docs/js/gridline.min.js"></script>
 
     </head>
     <body id="film-detail">
@@ -22,13 +22,45 @@
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
         <div class="container">
-			   :navigation
+			   
+
+<nav class="navbar navbar-default" role="navigation">
+			  <!-- Brand and toggle get grouped for better mobile display -->
+			  <div class="navbar-header">
+			    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+			      <div class="sr-only">Toggle navigation</div>
+			      <div class="icon-bar"></div>
+			      <div class="icon-bar"></div>
+			      <div class="icon-bar"></div>
+			    </button>
+			    <a class="navbar-brand" href="#"><img src="img/ao_logo_small.png" alt="Aug&amp;Ohr Medien" /></a>
+			  </div>
+
+			  <!-- Collect the nav links, forms, and other content for toggling -->
+			  <div class="collapse navbar-collapse">
+			    <ul class="nav navbar-nav">
+			    
+			      <li 
+			      ><a href="../../catalogue/">Catalogue</a></li>
+			
+				
+			      <li 
+			      ><a href="../../about/">About</a></li>
+			
+				
+			    </ul>
+			  <div class="navbar-right claim"><p>Your Film Agency.</p></div>
+			  </div><!-- /.navbar-collapse -->
+			</nav>
     <!-- Main jumbotron for a primary marketing message or call to action -->
    
       <div class="jumbotron" >
-        if $images do
-          :images
-          endif
+                    <div class="image">
+    <img src="../../content/2.catalogue/1.balletstory/01.jpg" alt="@title" width="1001" height="436">
+    
+  </div>
+
+          
         <div id="film-title" class="col-md-10">
           <h1>Ballet Story</h1>
           <p>A Film by <strong>Daria Belova</strong></p>
@@ -63,7 +95,10 @@
            </div>
             <div class="col-md-10 third">
               <div class="gutter">
-                @synopsis
+                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+
+<p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+
               </div>
             </div>
           </div>
@@ -78,12 +113,14 @@
             </div>
             <div class="col-md-4 second">
               <div class="gutter">
-                <img src="@root_path/@permalink/header-image/img.jpg" class="img-responsive" alt="Director Image" />
+                <img src="../../catalogue/balletstory//header-image/img.jpg" class="img-responsive" alt="Director Image" />
               </div>
            </div>
             <div class="col-md-10 third">
               <div class="gutter">
-                @director
+                <p>Daria Belova, born 1982, Saint-Petersburg, Russia. Studies of literature and philosophy at the Saint-Petersburg State University (thesis on composition in the short stories of Vladimir Nabokov). Editor at the TV (SPB, 5 Kanal) for analytical reports on culture and society. Editor for magazines in Saint-Petersburg and Moscow («Afisha», «Big city», «Zagorod»).
+Video artist. Participation in several exhibitions of contemporary art in St. Petersburg. Since October 2008 she studies film direction at the dffb. Working as a Berlin correspondent for the Moscow magazines “Snob” and “Afisha-Mir”.</p>
+
               </div>
             </div>
           </div>
@@ -316,7 +353,7 @@ Production</div></th>
         </section>        
       </div>
       <footer>
-        <p><a id="small-logo" href="#"><img src="@root_path/public/images/ao_logo_footer.png" alt="aug&amp;ohr medien" />
+        <p><a id="small-logo" href="#"><img src="../../public/images/ao_logo_footer.png" alt="aug&amp;ohr medien" />
             <span>aug&amp;ohr medien</span></a>
             <span>&copy; 2011-2013</span>
             <span class="pull-right imprint"><a href="#">Impressum</a></span>
@@ -325,3 +362,5 @@ Production</div></th>
     </div>
     </body>
 </html>
+
+<!-- Stacey(2.3.0): 7c7f51ea48d39abf330205c7d34ee7f1 -->

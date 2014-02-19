@@ -32,7 +32,7 @@
 
 		<h1 id="claimlp">Your Film Agency</h1>
 		<img id="logolp" src="./public/images/logo-landing-page.png" alt="Aug&amp;Ohr Medien" />
-		<a href=".///catalogue.html"><img id="iconlp" src="./public/images/icon-landing-page.png" alt="Aug&amp;Ohr Medien" /></a>
+		<a href="./catalogue"><img id="iconlp" src="./public/images/icon-landing-page.png" alt="Aug&amp;Ohr Medien" /></a>
 		
 	</body>				
-<!-- Stacey(2.3.0): 0d85aa492c4b5567be96e091d915f429 -->
+<!-- Stacey(2.3.0): 5b6bec385acf27c9cbcac55e801c7b89 -->

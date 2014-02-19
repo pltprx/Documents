@@ -17,7 +17,8 @@
 			    <ul class="nav navbar-nav">
 			    foreach $root do
 
-			      <li class="active"><a href="@url">@title</a></li>
+			      <li if @is_current do class="active" endif
+			      ><a href="@url">@title</a></li>
 			
 				endforeach
 			    </ul>
