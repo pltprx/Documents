@@ -34,7 +34,7 @@
 			      <div class="icon-bar"></div>
 			      <div class="icon-bar"></div>
 			    </button>
-			    <a class="navbar-brand" href="#"><img src="../public/images/ao_logo_small.png" alt="Aug&amp;Ohr Medien" /></a>
+			    <a class="navbar-brand" href="../"><img src="../public/images/ao_logo_small.png" alt="Aug&amp;Ohr Medien" /></a>
 			  </div>
 
 			  <!-- Collect the nav links, forms, and other content for toggling -->
@@ -171,31 +171,7 @@
 
 
       </div>
-      <div class="misc">
-        <section id="misc">
-           <div class="row" data-columns="16" data-gutter-width="20">
-            <div class="col-md-2 first">
-              <div class="gutter">
-                <h2>Misc</h2>
-              </div>
-            </div>
-            <div class="col-md-14">
-              <div class="table-responsive">
-                <table class="table">
-                  <tr>
-                    <th scope="row"><div><a href="">Press Kit</a></div></th>
-                    <td><div><a href="">Download the Presskit <small class="pull-right">PDF 2MB</small></a></div></td>
-                  </tr>
-                  <tr>
-                    <th scope="row"><div><a href="#">Promo Image</a></div></th>
-                    <td><div><a href="#">Download a high-res promo image. <small class="pull-right">JPG 4MB</small></a></div></td>
-                  </tr>                   
-                </table>
-              </div>
-           </div>
-          </div>
-        </section>        
-      </div>
+     
       <footer>
         <p><a id="small-logo" href="#"><img src="../public/images/ao_logo_footer.png" alt="aug&amp;ohr medien" />
             <span>aug&amp;ohr medien</span></a>
@@ -207,4 +183,4 @@
     </body>
 </html>
 
-<!-- Stacey(2.3.0): 9ab7899d41151a27a4d2fe95b1dc68fd -->
+<!-- Stacey(2.3.0): 16959a6b5ea85db85cf3ebdf6fbd9659 -->

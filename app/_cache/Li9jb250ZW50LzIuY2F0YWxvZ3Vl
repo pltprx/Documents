@@ -34,7 +34,7 @@
 			      <div class="icon-bar"></div>
 			      <div class="icon-bar"></div>
 			    </button>
-			    <a class="navbar-brand" href="#"><img src="../public/images/ao_logo_small.png" alt="Aug&amp;Ohr Medien" /></a>
+			    <a class="navbar-brand" href="../"><img src="../public/images/ao_logo_small.png" alt="Aug&amp;Ohr Medien" /></a>
 			  </div>
 
 			  <!-- Collect the nav links, forms, and other content for toggling -->
@@ -242,4 +242,4 @@
     </body>
 </html>
 
-<!-- Stacey(2.3.0): 9ab7899d41151a27a4d2fe95b1dc68fd -->
+<!-- Stacey(2.3.0): 16959a6b5ea85db85cf3ebdf6fbd9659 -->
