@@ -1,0 +1,15 @@
+film-title: Ballet Stories
+-
+synopsis: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.   
+
+Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.   
+-
+director: Daria Belova, born 1982, Saint-Petersburg, Russia. Studies of literature and philosophy at the Saint-Petersburg State University (thesis on composition in the short stories of Vladimir Nabokov). Editor at the TV (SPB, 5 Kanal) for analytical reports on culture and society. Editor for magazines in Saint-Petersburg and Moscow («Afisha», «Big city», «Zagorod»).
+Video artist. Participation in several exhibitions of contemporary art in St. Petersburg. Since October 2008 she studies film direction at the dffb. Working as a Berlin correspondent for the Moscow magazines “Snob” and “Afisha-Mir”.
+-
+1afname:
+-
+1afprize:
+-
+1afdate:
+-

@@ -625,7 +625,6 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endCo
 #claimlp {
 	position: absolute;
 	font-size: 48px;
-    font-weight: bold;
 	top:33%;
 	left:50%;
 	margin-left: -200px;
@@ -645,52 +644,4 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endCo
 	margin-left:-9px;
 	bottom: 15px;
 	}
-
-
-
-
- /* 
-
-=================================
-                                |
-    About Page 
-                                |
-=================================
-
-*/
-
-
-
-.jumbotron #about-title{
-        z-index: 100;
-        position:absolute;
-        top: 0;
-        left: 0;
-        margin-top: 50px;
-        text-align: center;
-        width: 100%;
-}
-
-
-#about table div{
-border-color: #dedede !important;
-padding-bottom: 22px;
-}
-
-.maps{
-     position: relative;
-        padding-bottom: 75%; // This is the aspect ratio
-        height: 0;
-        overflow: hidden;
-}
-
-.maps iframe {
-     position: absolute;
-        top: 0;
-        left: 0;
-        width: 100% !important;
-        height: 100% !important;
-        margin-top:34px;
-}
-
 
