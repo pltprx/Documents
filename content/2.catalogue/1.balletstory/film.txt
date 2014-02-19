@@ -7,9 +7,4 @@ Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie co
 director: Daria Belova, born 1982, Saint-Petersburg, Russia. Studies of literature and philosophy at the Saint-Petersburg State University (thesis on composition in the short stories of Vladimir Nabokov). Editor at the TV (SPB, 5 Kanal) for analytical reports on culture and society. Editor for magazines in Saint-Petersburg and Moscow («Afisha», «Big city», «Zagorod»).
 Video artist. Participation in several exhibitions of contemporary art in St. Petersburg. Since October 2008 she studies film direction at the dffb. Working as a Berlin correspondent for the Moscow magazines “Snob” and “Afisha-Mir”.
 -
-1afname:
--
-1afprize:
--
-1afdate:
--
+trailer: 
