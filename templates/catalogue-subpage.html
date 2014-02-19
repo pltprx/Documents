@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>@film-title</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+
+        <link rel="stylesheet" href="@root_path/public/docs/css/bootstrap.min.css">
+        <link rel="profile" href="http://microformats.org/profile/hcard">
+        <link rel="stylesheet" href="@root_path/public/docs/css/main.css">
+        <script src="https://code.jquery.com/jquery.js"></script>
+        <script src="@root_path/public/docs/js/gridline.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+
+
+    </head>
+    <body id="film-detail">
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        <div class="container">
+			<nav class="navbar navbar-default" role="navigation">
+			  <!-- Brand and toggle get grouped for better mobile display -->
+			  <div class="navbar-header">
+			    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+			      <div class="sr-only">Toggle navigation</div>
+			      <div class="icon-bar"></div>
+			      <div class="icon-bar"></div>
+			      <div class="icon-bar"></div>
+			    </button>
+			    <a class="navbar-brand" href="#"><img src="@root_path/public/images/ao_logo_small.png" alt="Aug&amp;Ohr Medien" /></a>
+			  </div>
+
+			  <!-- Collect the nav links, forms, and other content for toggling -->
+			  <div class="collapse navbar-collapse">
+			    <ul class="nav navbar-nav">
+			      <li class="active"><a href="#">Start</a></li>
+			      <li><a href="#">Catalogue</a></li>
+			      <li><a href="#">About</a></li>
+			      <li><a href="#">News</a></li>
+			      <li><a href="#">Contact</a></li>
+			    </ul>
+			  <div class="navbar-right claim"><p>Your Film Agency.</p></div>
+			  </div><!-- /.navbar-collapse -->
+			</nav>
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+   
+      <div class="jumbotron" >
+        <img src="@root_path/@slug/header-image/img.jpg" class="img-responsive" alt="Ballet Story Film Still" />
+        <div id="film-title" class="col-md-10">
+          <h1>Ballet Story</h1>
+          <p>A Film by <strong>Daria Belova</strong></p>
+         </div>
+        <div class="sub-nav hidden-xs" >
+        <ul class="nav nav-pills">
+          <li><a href="#synopsis">Synopsis</a></li>
+          <li><a href="#trailer">Trailer</a></li>
+          <li><a href="#">Awards+Festivals</a></li>
+          <li><a href="#">Director</a></li>
+          <li><a href="#">Crew</a></li>
+          <li><a href="#">Details</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Misc.</a></li>
+        </ul>
+        </div>
+      </div>
+
+
+      <!-- Example row of columns -->
+      <div id="content">
+       
+        <section id="synopsis">
+          <div class="row" data-columns="16" data-gutter-width="20">
+            <div class="col-md-2 first">
+              <div class="gutter">
+                <h2>Synopsis</h2>
+              </div>
+            </div>
+            <div class="col-md-4 second hidden-xs hidden-sm">
+              <div class="gutter"></div>
+           </div>
+            <div class="col-md-10 third">
+              <div class="gutter">
+                @synopsis
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="director">
+          <div class="row" data-columns="16" data-gutter-width="20">
+            <div class="col-md-2 first">
+              <div class="gutter">
+                <h2>Director</h2>
+              </div>
+            </div>
+            <div class="col-md-4 second">
+              <div class="gutter">
+                <img src="@root_path/@permalink/header-image/img.jpg" class="img-responsive" alt="Director Image" />
+              </div>
+           </div>
+            <div class="col-md-10 third">
+              <div class="gutter">
+                @director
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="awards">
+          <div class="row" data-columns="16" data-gutter-width="20">
+            <div class="col-md-2 first">
+              <div class="gutter">
+                <h2>Awards + Festivals</h2>
+              </div>
+            </div>
+            <div class="col-md-14">
+              <div class="table-responsive">
+                <table class="table">
+                  <tr>
+                    <th><div>PRIZE OF TECHNICAL CONTRIBUTION</div></th>
+                    <td scope="row"><div>17th Brazilian Student Film Festival<small class="pull-right hidden-xs">JANUARY 11, 2013</small></div></td>
+                  </tr>
+                  <tr>
+                    <th><div>Second Award</div></th>
+                    <td scope="row"><div>142nd Alcine Comunidad de Madrid Film Festival<small class="pull-right hidden-xs">JANUARY 14, 2013</small></div></td>
+                  </tr>
+                  <tr>
+                    <th><div>Special Mention</div></th>
+                    <td scope="row"><div>57th Corona Cork Film Festival<small class="pull-right hidden-xs">JANUARY 11, 2013</small></div></td>
+                  </tr>
+                  <tr>
+                    <th><div>Award for Best Photography</div></th>
+                    <td scope="row"><div>17th Brazilian Student Film Festival<small class="pull-right hidden-xs">JANUARY 11, 2013</small></div></td>
+                  </tr>
+                  <tr>
+                    <th><div>PRIZE OF TECHNICAL CONTRIBUTION</div></th>
+                    <td scope="row"><div>17th Brazilian Student Film Festival<small class="pull-right hidden-xs">JANUARY 11, 2013</small></div></td>
+                  </tr>
+                  <tr>
+                    <th><div>PRIZE OF TECHNICAL CONTRIBUTION</div></th>
+                    <td scope="row"><div>17th Brazilian Student Film Festival<small class="pull-right hidden-xs">JANUARY 11, 2013</small></div></td>
+                  </tr>
+                  <tr>
+                    <th><div>PRIZE OF TECHNICAL CONTRIBUTION</div></th>
+                    <td scope="row"><div>17th Brazilian Student Film Festival<small class="pull-right hidden-xs">JANUARY 11, 2013</small></div></td>
+                  </tr>
+                  <tr>
+                    <th><div>PRIZE OF TECHNICAL CONTRIBUTION</div></th>
+                    <td scope="row"><div>17th Brazilian Student Film Festival<small class="pull-right hidden-xs">JANUARY 11, 2013</small></div></td>
+                  </tr>                                             
+                </table>
+              </div>
+           </div>
+          </div>
+        </section>
+
+        <section id="trailer">
+                  <div class="row" data-columns="16" data-gutter-width="20">
+                    <div class="col-md-2 first">
+                      <div class="gutter">
+                        <h2>Trailer</h2>
+                      </div>
+                    </div>
+                    <div class="col-md-4 second hidden-xs hidden-sm">
+                      <div class="gutter"></div>
+                   </div>
+                    <div class="col-md-10 third">
+                      <div class="gutter">
+                        <div class="embed-container">
+                          <iframe 
+                              src="http://player.vimeo.com/video/60433373?title=0&amp;byline=0&amp;portrait=0" 
+                              frameborder="0" 
+                              webkitAllowFullScreen mozallowfullscreen allowFullScreen>
+                           </iframe>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+        </section>
+
+<section id="crew">
+          <div class="row" data-columns="16" data-gutter-width="20">
+            <div class="col-md-2 first">
+              <div class="gutter">
+                <h2>Crew</h2>
+              </div>
+            </div>
+            <div class="col-md-14">
+              <div class="table-responsive">
+                <table class="table">
+                  <tr>
+                    <th scope="row"><div>Director</div></th>
+                    <td><div>Daria Belova</div></td>
+                  </tr>
+                  <tr>
+                    <th scope="row"><div>Script</div></th>
+                    <td><div>Daria Belova &amp;Pascal Yorcks</div></td>
+                  </tr>
+                  <tr>
+                    <th scope="row"><div>Cinematography</div></th>
+                    <td><div>Max Preiss</div></td>
+                  </tr>
+                  <tr>
+                    <th scope="row"><div>Editing</div></th>
+                    <td><div>Wolfgang Niederhoffer &amp; Daria Belova</div></td>
+                  </tr>
+                  <tr>
+                    <th scope="row"><div>Producer</div></th>
+                    <td><div>Kirill Krasovskiy &amp; Philipp Reuter</div></td>
+                  </tr>
+                  <tr>
+                    <th scope="row"><div>Sound</div></th>
+                    <td><div>Ingo Reiter</div></td>
+                  </tr>
+                  <tr>
+                    <th scope="row"><div>Cast</div></th>
+                    <td ><div>Luise Engel, Elena Lekovic, Leon Lous</div></td>
+                  </tr>
+                                            
+                </table>
+              </div>
+           </div>
+          </div>
+        </section>
+
+<section id="details">
+          <div class="row" data-columns="16" data-gutter-width="20">
+            <div class="col-md-2 first">
+              <div class="gutter">
+                <h2>Details</h2>
+              </div>
+            </div>
+            <div class="col-md-14">
+              <div class="table-responsive">
+                <table class="table">
+                  <tr>
+                    <th scope="row"><div>Running Time</div></th>
+                    <td><div>9:00min</div></td>
+                  </tr>
+                  <tr>
+                    <th scope="row"><div>Shooting Format</div></th>
+                    <td><div>HD (Red)</div></td>
+                  </tr>
+                  <tr>
+                    <th scope="row"><div>Screening Format</div></th>
+                    <td><div>DCP, HDCam (25fps), DVD, DigiBeta, BetaSP, BlueRay</div></td>
+                  </tr>
+                  <tr>
+                    <th scope="row"><div>Aspect Ratio</div></th>
+                    <td><div>1:1,78</div></td>
+                  </tr>
+                  <tr>
+                    <th scope="row"><div>Sound</div></th>
+                    <td><div>Dolby Stereo, English Subtitles</div></td>
+                  </tr>
+                  <tr>
+                    <th scope="row"><div>Website</div></th>
+                    <td><div><a href="#">http://einelustigeseite.com</a><div></td>
+                  </tr>
+                   
+                </table>
+              </div>
+           </div>
+          </div>
+</section>
+
+<section id="contact">
+          <div class="row" data-columns="16" data-gutter-width="20">
+            <div class="col-md-2 first">
+              <div class="gutter">
+                <h2>Contact</h2>
+              </div>
+            </div>
+            <div class="col-md-14">
+              <div class="table-responsive">
+                <table class="table">
+                  <tr>
+                    <th scope="row"><div>Film Agency</div></th>
+                    <td><div class="vcard">
+                      <p class="org"><strong>aug&amp;ohr medien</strong></p>
+                      <p class="fn">Markus Kaatsch</p>
+                      <p class="org">M. Kaatsch, J. Hardt &amp; Co. GbR</p>
+                      <p class="street-address">Platz der Vereinten Nationen 28<p>
+                      <p><span class="postal-code">D-10249</span> <span class="locality">Berlin</span>, <span class="country-name">Germany</span></p>
+                      <p class="tel">+49 (0) 176 - 62965299</p>
+                      <p><a class="url"href="#">http://augohr.de</a></p>
+                    </div></td>
+                  </tr>
+                  <tr>
+                    <th scope="row"><div>Film School, Distributor &amp; 
+Production</div></th>
+                    <td><div class="vcard">
+                      <p class="org"><strong>dffb</strong></p>
+                      <p class="org">Deutsche Film- und Fernsehakademie</p>
+                      <p class="org">German Film and Television Academy</p>
+                      <p class="fn">Hella Schmidt / Laure Tinette</p>
+                      <p class="street-address">Potsdamer Straße 2<p>
+                      <p><span class="postal-code">D-10785</span> <span class="locality">Berlin</span>, <span class="country-name">Germany</span></p>
+                      <p class="tel">+49 30 257 59 153 / - 152</p>
+                      <p><a class="url"href="#">http://dffb.de</a></p>
+                    </div></td>
+                  </tr>
+                   
+                </table>
+              </div>
+           </div>
+          </div>
+        </section>        
+      </div>
+      <div class="misc">
+        <section id="misc">
+           <div class="row" data-columns="16" data-gutter-width="20">
+            <div class="col-md-2 first">
+              <div class="gutter">
+                <h2>Misc</h2>
+              </div>
+            </div>
+            <div class="col-md-14">
+              <div class="table-responsive">
+                <table class="table">
+                  <tr>
+                    <th scope="row"><div><a href="">Press Kit</a></div></th>
+                    <td><div><a href="">Download the Presskit <small class="pull-right">PDF 2MB</small></a></div></td>
+                  </tr>
+                  <tr>
+                    <th scope="row"><div><a href="#">Promo Image</a></div></th>
+                    <td><div><a href="#">Download a high-res promo image. <small class="pull-right">JPG 4MB</small></a></div></td>
+                  </tr>                   
+                </table>
+              </div>
+           </div>
+          </div>
+        </section>        
+      </div>
+      <footer>
+        <p><a id="small-logo" href="#"><img src="@root_path/public/images/ao_logo_footer.png" alt="aug&amp;ohr medien" />
+            <span>aug&amp;ohr medien</span></a>
+            <span>&copy; 2011-2013</span>
+            <span class="pull-right imprint"><a href="#">Impressum</a></span>
+        </p>
+      </footer>
+    </div>
+    </body>
+</html>

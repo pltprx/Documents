@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Aug&amp;Ohr Medien</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+
+        <link rel="stylesheet" href="@root_path/public/docs/css/bootstrap.min.css">
+        <link rel="profile" href="http://microformats.org/profile/hcard">
+        <link rel="stylesheet" href="@root_path/public/docs/css/main.css">
+        <script src="https://code.jquery.com/jquery.js"></script>
+        <script src="@root_path/public/docs/js/gridline.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+
+    </head>
+    <body id="film-catalogue">
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        <div class="container">
+  			<nav class="navbar navbar-default" role="navigation">
+  			  <!-- Brand and toggle get grouped for better mobile display -->
+  			  <div class="navbar-header">
+  			    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+  			      <div class="sr-only">Toggle navigation</div>
+  			      <div class="icon-bar"></div>
+  			      <div class="icon-bar"></div>
+  			      <div class="icon-bar"></div>
+  			    </button>
+  			    <a class="navbar-brand" href="#"><img src="@root_path/public/images/ao_logo_small.png" alt="Aug&amp;Ohr Medien" /></a>
+  			  </div>
+
+  			  <!-- Collect the nav links, forms, and other content for toggling -->
+  			  <div class="collapse navbar-collapse">
+  			    <ul class="nav navbar-nav">
+  			      <li><a href="#">Start</a></li>
+  			      <li class="active"><a href="#">Catalogue</a></li>
+  			      <li><a href="#">About</a></li>
+  			      <li><a href="#">News</a></li>
+  			      <li><a href="#">Contact</a></li>
+  			    </ul>
+  			  <div class="navbar-right claim"><p>Your Film Agency.</p></div>
+  			  </div><!-- /.navbar-collapse -->
+  			</nav>
+
+        <nav class="navbar navbar-default filter-nav hidden-xs" role="navigation" >
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse ">
+            <ul class="nav navbar-nav">
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Short Films <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">Separated link</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">One more separated link</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Feature Films <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">Separated link</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">One more separated link</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Documentaries <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">Separated link</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">One more separated link</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="navbar-form navbar-right" role="search">
+  <div class="form-group">
+    <label for="search-box" class="sr-only">Search Our Films</label>
+
+    <input type="text" id="search-box" class="form-control" placeholder="Search">
+  </div>
+</form>
+          </div><!-- /.navbar-collapse -->
+        </nav>
+
+      <div id="content">
+       <div class="row" data-columns="16" data-gutter-width="40">
+        <div class="col-sm-8 third catalogue-header">
+          <div class="gutter">
+            <h2>Catalogue</h2>
+            <p>An overview of all our films.</p>
+          </div>
+        </div>
+        <div class="col-sm-4 second hidden-xs">
+          <div class="gutter"></div>
+        </div>
+        <div class="col-sm-4 second hidden-xs">
+          <div class="gutter"></div>
+        </div>
+       </div>
+
+        <section id="film-thumbs">
+          <div class="row" data-columns="16" data-gutter-width="40">
+            
+            <div class="col-sm-4 second">
+              <div class="gutter">
+                <a href="#">
+                <h3>Ballet Story</h3>
+                <p>by <strong>Daria Belova</strong></p>
+                <img src="ressources/images/ballet-story-thumb.jpg" alt="ballet story thumbnail" class="img-responsive" />
+                <div class="short-synopsis">
+                  <p>A photoshoot. The model Helen is unnerved. Back in the changing room she makes a surprising discovery. Everything around her is edible - the chair, the TV…</p>
+                </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-sm-4 second">
+              <div class="gutter">
+                <a href="#">
+                <h3>Cold Star</h3>
+                <p>by <strong>Kai Stänicke</strong></p>
+                <img src="ressources/images/cold-star-thumb.jpg" alt="ballet story thumbnail" class="img-responsive" />
+                <div class="short-synopsis">
+                  <p>A photoshoot. The model Helen is unnerved. Back in the changing room she makes a surprising discovery. Everything around her is edible - the chair, the TV…</p>
+                </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-sm-4 second">
+              <div class="gutter">
+                <a href="#">
+                <h3>Eat</h3>
+                <p>by <strong>Moritz Krämer</strong></p>
+                <img src="ressources/images/eat-thumb.jpg" alt="ballet story thumbnail" class="img-responsive" />
+                <div class="short-synopsis">
+                  <p>A photoshoot. The model Helen is unnerved. Back in the changing room she makes a surprising discovery. Everything around her is edible - the chair, the TV…</p>
+                </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-sm-4 second">
+              <div class="gutter">
+                <a href="#">
+                <h3>Grünes Gold</h3>
+                <p>by <strong>Barbara Marheineke</strong></p>
+                <img src="ressources/images/gruenes-gold-thumb.jpg" alt="ballet story thumbnail" class="img-responsive" />
+                <div class="short-synopsis"><p>A photoshoot. The model Helen is unnerved. Back in the changing room she makes a surprising discovery. Everything around her is edible - the chair, the TV…</p></div>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-sm-4 second">
+              <div class="gutter">
+                <a href="#">
+                <h3>Elisabeth</h3>
+                <p>by <strong>Katharina Woll</strong></p>
+                <img src="ressources/images/elisabeth-thumb.jpg" alt="ballet story thumbnail" class="img-responsive" />
+                <div class="short-synopsis">
+                  <p>A photoshoot. The model Helen is unnerved. Back in the changing room she makes a surprising discovery. Everything around her is edible - the chair, the TV…</p>
+                </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-sm-4 second">
+              <div class="gutter">
+                <a href="#">
+                <h3>Hiob</h3>
+                <p>by <strong>Marco Gadge</strong></p>
+                <img src="ressources/images/hiob-thumb.jpg" alt="ballet story thumbnail" class="img-responsive" />
+                <div class="short-synopsis">
+                  <p>A photoshoot. The model Helen is unnerved. Back in the changing room she makes a surprising discovery. Everything around her is edible - the chair, the TV…</p>
+                </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-sm-4 second">
+              <div class="gutter">
+                <a href="#">
+                <h3>Silent Youth</h3>
+                <p>by <strong>Diemo Kemmesies</strong></p>
+                <img src="ressources/images/silent-youth-thumb.jpg" alt="ballet story thumbnail" class="img-responsive" />
+                <div class="short-synopsis">
+                  <p>A photoshoot. The model Helen is unnerved. Back in the changing room she makes a surprising discovery. Everything around her is edible - the chair, the TV…</p>
+                </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-sm-4 second">
+              <div class="gutter">
+                <a href="#">
+                <h3>It's Consuming Me</h3>
+                <p>by <strong>Kai Stänicke</strong></p>
+                <img src="ressources/images/consuming-thumb.jpg" alt="ballet story thumbnail" class="img-responsive" />
+                <div class="short-synopsis">
+                  <p>A photoshoot. The model Helen is unnerved. Back in the changing room she makes a surprising discovery. Everything around her is edible - the chair, the TV…</p>
+                </div>
+                </a>
+              </div>
+            </div>
+
+          </div>
+        </section>
+      </div>
+      <footer>
+        <p><a id="small-logo" href="#"><img src="@root_path/public/images/ao_logo_footer.png" alt="aug&amp;ohr medien" />
+            <span>aug&amp;ohr medien</span></a>
+            <span>&copy; 2011-2013</span>
+            <span class="pull-right imprint"><a href="#">Impressum</a></span>
+        </p>
+      </footer>
+    </div>
+    </body>
+</html>
