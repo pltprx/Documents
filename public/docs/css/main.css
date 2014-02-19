@@ -650,3 +650,38 @@ padding-bottom: 22px;
         height: 100% !important;
         margin-top:34px;
 }
+
+
+ /* 
+
+=================================
+                                |
+    Landing Page 
+                                |
+=================================
+
+*/
+
+    
+#claimlp {
+    position: absolute;
+    font-size: 48px;
+    top:33%;
+    left:50%;
+    margin-left: -200px;
+    color: white;
+    }
+
+#logolp {
+    position: absolute;
+    top:57%;
+    left:50%;
+    margin-left:-46.5px;
+    }
+
+#iconlp {
+    position: absolute;
+    left:50%;
+    margin-left:-9px;
+    bottom: 15px;
+    }
