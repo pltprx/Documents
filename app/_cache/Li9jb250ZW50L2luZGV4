@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+
+	<head>
+		
+		<meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Aug&amp;Ohr Medien</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+
+        <link rel="stylesheet" href="./public/docs/css/bootstrap.min.css">
+        <link rel="profile" href="http://microformats.org/profile/hcard">
+        <link rel="stylesheet" href="./public/docs/css/main.css">
+        <script src="https://code.jquery.com/jquery.js"></script>
+        <script src="./public/docs/js/gridline.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+						
+	</head>
+		
+	<body id="landing-pagep"> 
+		<style type="text/css" media="screen">
+		body { 
+	 		background-image: url(./public/images/background-landing-page.png);
+    		background-repeat:no-repeat;
+    		background-attachment:fixed;
+ 	   		background-position:center; 
+ 	  	 	background-size: cover;
+			}
+		</style>
+
+		<h1 id="claimlp">Your Film Agency</h1>
+		<img id="logolp" src="./public/images/logo-landing-page.png" alt="Aug&amp;Ohr Medien" />
+		<a href=".///catalogue.html"><img id="iconlp" src="./public/images/icon-landing-page.png" alt="Aug&amp;Ohr Medien" /></a>
+		
+	</body>				
+<!-- Stacey(2.3.0): 0d85aa492c4b5567be96e091d915f429 -->
