@@ -277,7 +277,7 @@ table div small{
 #awards table tr td div, #awards table tr th div {
     padding: 15px 0;
 }
-#awards table tr td div, #awards table tr th div,#contact table tr td div, #contact table tr th div {
+#awards table tr td div, #awards table tr th div,#contact table tr td div, #contact table tr th div, #about table tr th div, #about table tr td div {
     border-top: 1px solid #dcdcdc;
 
 }
@@ -288,16 +288,14 @@ table div small{
     font-style:normal;
 }
 
-#contact table:first-child tr:first-child th div{
+#contact table tr th div, #contact table tr td div, #about table tr th div, #about table tr td div{
     padding-top:34px;
 
 
 }
-#contact table:first-child tr:last-child th div, #contact table:first-child tr:last-child td div{
-    padding-top:34px;
+
     
 
-}
 
 
     @media(max-width:992px){
@@ -349,7 +347,7 @@ table div small{
             border:0;
         }
 
-        #film-thumbs .gutter * {font-size: 15px;}
+        #film-thumbs .gutter * {font-size: 15px; overflow: scroll;}
 
 }
       
@@ -610,38 +608,45 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endCo
     }
 
 
-
- /* 
+/* 
 
 =================================
                                 |
-    Landing Page 
+    About Page 
                                 |
 =================================
 
 */
 
-	
-#claimlp {
-	position: absolute;
-	font-size: 48px;
-	top:33%;
-	left:50%;
-	margin-left: -200px;
-	color: white;
-	}
 
-#logolp {
-	position: absolute;
-	top:57%;
-	left:50%;
-	margin-left:-46.5px;
-	}
+.jumbotron #about-title{
+        z-index: 100;
+        position:absolute;
+        top: 0;
+        left: 0;
+        margin-top: 50px;
+        text-align: center;
+        width: 100%;
+}
 
-#iconlp {
-	position: absolute;
-	left:50%;
-	margin-left:-9px;
-	bottom: 15px;
-	}
 
+#about table div{
+border-color: #dedede !important;
+padding-bottom: 22px;
+}
+
+.maps{
+     position: relative;
+        padding-bottom: 75%; // This is the aspect ratio
+        height: 0;
+        overflow: hidden;
+}
+
+.maps iframe {
+     position: absolute;
+        top: 0;
+        left: 0;
+        width: 100% !important;
+        height: 100% !important;
+        margin-top:34px;
+}
