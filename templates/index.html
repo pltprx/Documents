@@ -13,13 +13,17 @@
         <link rel="stylesheet" href="@root_path/public/docs/css/bootstrap.min.css">
         <link rel="profile" href="http://microformats.org/profile/hcard">
         <link rel="stylesheet" href="@root_path/public/docs/css/main.css">
+        <link rel="stylesheet" href="@root_path/public/docs/css/onepage-scroll.css">
         <script src="https://code.jquery.com/jquery.js"></script>
         <script src="@root_path/public/docs/js/gridline.min.js"></script>
+        <script src="@root_path/public/docs/js/jquery.onepage-scroll.js"></script>
+        <script src="@root_path/public/docs/js/jquery.onepage-scroll.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
-						
+
+
 	</head>
 		
-	<body id="landing-pagep"> 
+	<body> 
 		<style type="text/css" media="screen">
 		body { 
 	 		background-image: url(@root_path/public/images/background-landing-page.png);
@@ -30,8 +34,51 @@
 			}
 		</style>
 
-		<h1 id="claimlp">Your Film Agency</h1>
-		<img id="logolp" src="@root_path/public/images/logo-landing-page.png" alt="Aug&amp;Ohr Medien" />
-		<a href="@url/catalogue.html"><img id="iconlp" src="@root_path/public/images/icon-landing-page.png" alt="Aug&amp;Ohr Medien" /></a>
-		
-	</body>				
+
+
+<div class="wrapper">
+	  <div class="main">
+	    
+      <section class="page1">
+        <div class="page_container">
+          
+			<h1 id="claimlp">Your Film Agency</h1>
+			<img id="logolp" src="@root_path/public/images/logo-landing-page.png" alt="Aug&amp;Ohr Medien" />
+			<a href="@url/catalogue.html"><img id="iconlp" src="@root_path/public/images/icon-landing-page.png" alt="Aug&amp;Ohr Medien" /></a>  
+
+
+  	    </div>
+      </section>
+	    
+	    <section class="page2">
+	      <div class="page_container">
+         
+
+         <h1 id="claimlp">Your Film Agency</h1>
+			<img id="logolp" src="@root_path/public/images/logo-landing-page.png" alt="Aug&amp;Ohr Medien" />
+			<a href="@url/catalogue.html"><img id="iconlp" src="@root_path/public/images/icon-landing-page.png" alt="Aug&amp;Ohr Medien" /></a>  
+
+
+          <code class="html">
+  	        &lt;div class="main"&gt;<br>
+  	          &lt;section&gt;...&lt;/section&gt;<br>
+  	          &lt;section&gt;...&lt;/section&gt;<br>
+  	          ...<br>
+  	        &lt;/div&gt;
+  	      </code>
+  	      
+  	      <code class="js">
+	          $(".main").onepage_scroll();
+	        </code>
+	      </div>
+      </section>
+	    
+	   
+    </div>
+  
+  </div>
+</body>	
+
+
+
+
