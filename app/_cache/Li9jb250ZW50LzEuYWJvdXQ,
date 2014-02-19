@@ -34,7 +34,7 @@
 			      <div class="icon-bar"></div>
 			      <div class="icon-bar"></div>
 			    </button>
-			    <a class="navbar-brand" href="#"><img src="img/ao_logo_small.png" alt="Aug&amp;Ohr Medien" /></a>
+			    <a class="navbar-brand" href="#"><img src="../public/images/ao_logo_small.png" alt="Aug&amp;Ohr Medien" /></a>
 			  </div>
 
 			  <!-- Collect the nav links, forms, and other content for toggling -->
@@ -74,7 +74,10 @@
           <div class="row" data-columns="16" data-gutter-width="20">
              <div class="col-md-10 third">
               <div class="gutter">
-              @about-text
+              <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+
+<p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+
               </div>
             </div>
             <div class="col-md-6">
@@ -89,7 +92,7 @@
                     <td>
                       <div>
                         <p>@name-1<br />
-                        <em>@profession-1</em>
+                        <em>Founder</em>
                         </p>
                       </div>
                     </td>
@@ -103,8 +106,8 @@
                     </th>
                     <td>
                       <div>
-                        <p>@name-2<br />
-                        <em>@profession-2</em>
+                        <p>Nicklas Warnecke<br />
+                        <em>Founder</em>
                         </p>
                       </div>
                     </td>
@@ -118,8 +121,8 @@
                     </th>
                     <td>
                       <div>
-                        <p>@name-3<br />
-                        <em>@profession-3</em>
+                        <p>Nicklas Warnecke<br />
+                        <em>Founder</em>
                         </p>
                       </div>
                     </td>
@@ -143,12 +146,13 @@
                   <tr>
                     <th scope="row"><div class="vcard">
                       <p class="org"><strong>@name</strong></p>
-                      <p class="fn">@line-1</p>
-                      <p class="org">@line-2</p>
-                      <p class="street-address">@street-address<p>
-                      <p><span class="postal-code">@postal-code</span> <span class="locality">@locality</span>, <span class="country-name">@country-name</span></p>
-                      <p class="tel">@tel</p>
-                      <p><a class="url"href="#">@website</a></p>
+                      <p class="fn">Markus Kaatsch</p>
+                      <p class="org">M. Kaatsch, J. Hardt & Co. GbR</p>
+                      <p class="street-address">Riemannstraße 21<p>
+                      <p><span class="postal-code">D-10961</span> <span class="locality">Berlin</span>, <span class="country-name">Germany</span></p>
+                      <p class="tel">+49 (0) 176 - 62965299</p>
+                      <p><a class="url"href="#"><p>http://augohr.de</p>
+</a></p>
                     </div></th>
                     <td>
                       <div class="maps">
@@ -203,4 +207,4 @@
     </body>
 </html>
 
-<!-- Stacey(2.3.0): 7c7f51ea48d39abf330205c7d34ee7f1 -->
+<!-- Stacey(2.3.0): 5554c3180f397bed9329669af067750a -->
