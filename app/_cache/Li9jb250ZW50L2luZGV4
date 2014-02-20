@@ -13,8 +13,11 @@
         <link rel="stylesheet" href="./public/docs/css/bootstrap.min.css">
         <link rel="profile" href="http://microformats.org/profile/hcard">
         <link rel="stylesheet" href="./public/docs/css/main.css">
+        <link rel="stylesheet" href="./public/docs/css/onepage-scroll.css">
         <script src="https://code.jquery.com/jquery.js"></script>
         <script src="./public/docs/js/gridline.min.js"></script>
+        <script src="./public/docs/js/jquery.onepage-scroll.js"></script>
+        <script src="./public/docs/js/jquery.onepage-scroll.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
 						
 	</head>
@@ -35,4 +38,4 @@
 		<a href="./catalogue"><img id="iconlp" src="./public/images/icon-landing-page.png" alt="Aug&amp;Ohr Medien" /></a>
 		
 	</body>				
-<!-- Stacey(2.3.0): 16959a6b5ea85db85cf3ebdf6fbd9659 -->
+<!-- Stacey(2.3.0): 5b08daa5a981dba5ec36174cb8ad504f -->
